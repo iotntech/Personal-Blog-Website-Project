@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Homepage</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a class="blog" href="blog.html">Blog</a></li>
+                <h3 class="sub"><a href="#">Subscribe</a></h3>
+            </ul>
+            
+            <div class="box post"><h1 id="blogposttitle">Photography: Perspective and Empathy</h1>
+                <!--card-->
+                <div class="box card">
+                    <h2 id="cardtitle">Take Another Look</h2>
+                    <p>Looking at the world through different prespectives can not only serve to help us develop empathy <em>and</em> appreciate diversity, it also keeps us from becoming stagnant in our views of the world.</p>
+                </div>
+                <!--image-->
+                <div class="box"><img class="img" src="/assets/img/glass.jpg" alt="Image through a glass in a man's hand" width="300" height="300"></div>
+                <!--button-->
+                <div class="box2">
+                    <button class="button">Photography</button>
+                    <button class="button">Perspectives</button>
+                    <button class="button">Empathy</button>
+                </div>
+                <hr>
+                <h2>Subscribe to Our Blog</h2>
+                <form id="emailform">
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" value="Ex: name@youremail.com"><br><br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+            <div class="box foot">
+                &copy;2024
+                <a href="#">About</a></h3>
+                <a href="#">Blog</a></h3>
+            </div>
+        </div>
+    </body>
+</html>
